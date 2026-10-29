@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>8WTC — App Growth Media Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800;900&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F3F7F9;--ink:#111216;--muted:#5E6573;--line:rgba(17,18,22,.10);--accent:#5476F6;--link:#3D58CE;--soft:rgba(255,255,255,.62);--glass:rgba(255,255,255,.55);
+--c1:#5476F6;--c2:#111216;--c3:#A9BBFA;--c4:#D3DEEE;--c5:#2B3F9E}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -10%,rgba(255,255,255,.75),transparent 60%),radial-gradient(900px 700px at 0% 30%,rgba(240,242,246,.9),transparent 60%),linear-gradient(180deg,#CADDF1 0px,#DAE7F5 700px,#E9F0F7 1600px,#F3F7F9 2600px);min-height:100vh;color:var(--ink);font:15px/1.55 Inter,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:1120px;margin:0 auto;padding:72px 40px 48px}
+h1,h2,h3,.budget,.num{font-family:'Inter Tight',Arial,sans-serif;letter-spacing:-0.02em}
+h1{font-size:76px;line-height:.98;font-weight:800;letter-spacing:-0.055em;margin:18px auto 0;max-width:900px}
+h2{font-size:32px;font-weight:800;letter-spacing:-0.04em;margin:2px 0 6px}
+h3{font-size:18px;font-weight:700;letter-spacing:-0.02em;margin:0 0 10px}
+p{margin:0}
+.muted{color:var(--muted)}
+.eyebrow{font-size:13px;font-weight:600;color:var(--muted)}
+.eyebrow.blue{color:var(--accent)}
+section{padding:64px 0;border-top:1px solid var(--line)}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;padding-bottom:40px}
+.head .meta{text-align:right;font-size:14px;color:var(--muted);line-height:1.8}
+.head .meta b{color:var(--ink);font-weight:600}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{width:30px;height:30px;border-radius:8px;background:var(--ink);color:#fff;font:700 13px 'Inter Tight',sans-serif;display:grid;place-items:center}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);padding-top:28px}
+.stats div{padding:0 24px;border-left:1px solid var(--line)}
+.stats div:first-child{padding-left:0;border-left:0}
+.num{font-size:40px;font-weight:800;letter-spacing:-0.045em;line-height:1.1;display:block}
+.stats small{font-size:13px;color:var(--muted)}
+.fly{display:grid;grid-template-columns:1fr 1.05fr;gap:48px;align-items:center}
+.fly .lead{font-size:17px;line-height:1.6;margin:14px 0 22px;max-width:440px}
+.forces{display:grid;grid-template-columns:1fr 1fr;gap:20px;font-size:14px}
+.forces b{display:block;font-weight:600;margin-bottom:2px}
+.wheel{width:100%;max-width:470px;justify-self:center;font-family:Inter,sans-serif}
+.stages{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:44px}
+.stage{border-top:2px solid var(--ink);padding-top:14px;font-size:14px}
+.stage.adv{border-color:var(--accent)}
+.stage .n{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.06em}
+.stage h3{margin:4px 0 8px}
+.stage .kpi{display:block;margin-top:10px;font-size:13px;color:var(--muted)}
+.loop{margin-top:32px;padding:20px 24px;background:var(--glass);border:1px solid rgba(255,255,255,.85);border-radius:22px;backdrop-filter:blur(14px);font-size:14px;display:flex;gap:14px;align-items:flex-start}
+.loop span{color:var(--accent);font-size:20px;line-height:1}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;gap:20px;margin-bottom:32px}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.plan{padding:28px 28px 24px;border-left:1px solid var(--line)}
+.plan:first-child{border-left:0;padding-left:0}
+.plan.rec{background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.9);border-radius:24px;box-shadow:0 20px 50px rgba(84,118,246,.16);backdrop-filter:blur(14px)}
+.plan.rec + .plan{border-left:0}
+.plan-top{display:flex;justify-content:space-between;align-items:center;min-height:24px}
+.pill{font-size:12px;font-weight:600;color:#fff;background:var(--accent);padding:5px 12px;border-radius:99px;box-shadow:0 6px 16px rgba(84,118,246,.35)}
+.budget{font-size:52px;font-weight:800;letter-spacing:-0.05em;margin:10px 0 6px}
+.budget span{font-size:15px;color:var(--muted);font-family:Inter,sans-serif;letter-spacing:0;margin-left:6px;font-weight:400}
+.plan p.muted{font-size:14px;min-height:44px}
+.stack{display:flex;height:8px;border-radius:99px;overflow:hidden;margin:22px 0 16px;gap:2px}
+.mix{list-style:none;margin:0;padding:0;font-size:13.5px}
+.mix li{display:grid;grid-template-columns:10px 1fr auto 64px;gap:10px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--line)}
+.mix li:last-child{border-bottom:0}
+.mix i{width:8px;height:8px;border-radius:50%;display:block;align-self:center}
+.mix em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.mix small{text-align:right;color:var(--muted);font-size:12.5px}
+.geos{font-size:13px;margin-top:14px}
+.geos .muted{margin-right:6px}
+.note{margin-top:22px;font-size:13px;color:var(--muted)}
+.two{display:grid;grid-template-columns:1.3fr 1fr;gap:56px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:10px 8px;border-bottom:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
+th[scope=row]{text-align:left;font-weight:400;color:var(--muted);padding-left:0}
+thead th{font-size:12px;font-weight:600;color:var(--muted);border-bottom:1px solid rgba(17,18,22,.35)}
+thead th:first-child{text-align:left;padding-left:0}
+td.hl,th.hl{background:rgba(84,118,246,.08);font-weight:600;color:var(--ink)}
+thead th.hl{color:var(--accent)}
+.geo th[scope=row]{color:var(--ink);font-weight:500}
+.geo th small{display:block;color:var(--muted);font-weight:400;font-size:12px}
+.geo td.dot{text-align:center}
+.on{color:var(--accent)} .off{color:#A7B0BF}
+.foot-note{font-size:13px;color:var(--muted);margin-top:16px}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.cols ul{margin:0;padding-left:18px;font-size:14px}
+.cols li{margin-bottom:8px}
+.cols li::marker{color:var(--accent)}
+footer{border-top:1px solid var(--line);padding-top:20px;display:flex;justify-content:space-between;gap:32px;font-size:12px;color:var(--muted)}
+footer b{color:var(--ink);font-weight:600;white-space:nowrap}
+
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;max-width:780px;margin:0 auto;padding:10px 10px 10px 12px;background:var(--glass);border:1px solid rgba(255,255,255,.9);border-radius:999px;backdrop-filter:blur(16px);box-shadow:0 10px 30px rgba(60,90,160,.10)}
+.nav img{width:46px;height:46px;border-radius:12px;display:block}
+.nav .links{display:flex;gap:26px;font-size:15px;color:var(--muted)}
+.btn{display:inline-block;background:var(--accent);color:#fff;font-weight:600;font-size:15px;padding:13px 22px;border-radius:999px;text-decoration:none;box-shadow:0 10px 24px rgba(84,118,246,.35);white-space:nowrap}
+.hero{text-align:center;padding:96px 0 56px}
+.hero .sub{font-size:21px;line-height:1.5;color:var(--muted);max-width:660px;margin:22px auto 0}
+.hero .fine{font-size:14px;color:#7A808C;margin-top:22px}
+.hero .fine b{color:var(--ink);font-weight:600}
+.stats{background:var(--glass);border:1px solid rgba(255,255,255,.85);border-radius:24px;padding:28px 32px !important;backdrop-filter:blur(14px);border-top:1px solid rgba(255,255,255,.85) !important}
+@media (max-width:900px){.nav .links{display:none}.hero{padding:56px 0 36px}h1{font-size:44px !important}.hero .sub{font-size:17px}}
+@media (max-width:900px){
+ main{padding:40px 18px}
+ h1{font-size:34px}
+ .head,.sec-head,footer{flex-direction:column;align-items:flex-start}
+ .head .meta{text-align:left}
+ .stats{grid-template-columns:1fr 1fr;row-gap:24px}
+ .stats div:nth-child(3){padding-left:0;border-left:0}
+ .fly,.two,.cols,.plans{grid-template-columns:1fr}
+ .stages{grid-template-columns:1fr 1fr}
+ .plan,.plan:first-child{border-left:0;padding:24px 0;border-top:1px solid var(--line)}
+ .plan.rec{padding:24px 18px}
+ .table-wrap{overflow-x:auto}
+}
+@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact} section{break-inside:avoid}}
+</style>
+</head>
+<body>
+<main>
+
+<nav class="nav" aria-label="Plan">
+<img src="data:image/png;base64,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" alt="8WTC logo">
+<div class="links"><span>Flywheel</span><span>Plans</span><span>Results</span><span>Geos</span></div>
+<span class="btn">Plan B recommended · £46K/mo</span>
+</nav>
+<div class="hero">
+<span class="eyebrow">App growth media plan · Prepared by Bruno C.</span>
+<h1>Every member we win makes the next one cheaper</h1>
+<p class="sub">A flywheel media plan for the 8WTC app. Three monthly budgets across English-speaking fitness markets.</p>
+<p class="fine"><b>£30K · £46K · £95K</b> per month · Meta, Apple Search Ads, Google App, programmatic</p>
+</div>
+
+<div class="stats">
+<div><span class="num">4</span><small>channel groups: Meta, Apple Search Ads, Google App, programmatic</small></div>
+<div><span class="num">6</span><small>English-speaking geo hotspots</small></div>
+<div><span class="num">£46–65</span><small>modelled CPA per entry across plans</small></div>
+<div><span class="num">£109</span><small>first-purchase break-even CPA</small></div>
+</div>
+
+<section style="margin-top:56px">
+<div class="fly">
+<div>
+<span class="eyebrow blue">Core rationale</span>
+<h2>The 8WTC flywheel</h2>
+<p class="lead">A funnel ends at the purchase. A flywheel feeds its output back in: transformations become creative, app data becomes audiences, members bring members. Media adds speed; removing friction keeps it turning.</p>
+<div class="forces">
+<div><b>Force — what speeds it up</b><span class="muted">Spend behind proven UGC, app-event audiences, referrals.</span></div>
+<div><b>Friction — what we remove</b><span class="muted">Slow LPs, broken deep links, onboarding drop-off, untracked installs.</span></div>
+</div>
+</div>
+<svg class="wheel" viewBox="-60 -10 460 360" role="img" aria-label="Flywheel: Attract, Install, Engage, Advocate, looping back to Attract">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--accent)"/></marker></defs>
+<path d="M210.4 59.1 A118 118 0 0 1 280.9 129.6" fill="none" stroke="var(--accent)" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M280.9 210.4 A118 118 0 0 1 210.4 280.9" fill="none" stroke="var(--accent)" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M129.6 280.9 A118 118 0 0 1 59.1 210.4" fill="none" stroke="var(--accent)" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M59.1 129.6 A118 118 0 0 1 129.6 59.1" fill="none" stroke="var(--accent)" stroke-width="2" marker-end="url(#arr)"/>
+<circle cx="170.0" cy="52.0" r="26" fill="var(--bg)" stroke="var(--accent)" stroke-width="2"/><text x="170.0" y="57.0" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ink)">1</text>
+<text x="170.0" y="16.0" text-anchor="middle" font-size="14" font-weight="600" fill="var(--ink)">Attract</text>
+<circle cx="288.0" cy="170.0" r="26" fill="var(--bg)" stroke="var(--accent)" stroke-width="2"/><text x="288.0" y="175.0" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ink)">2</text>
+<text x="322.0" y="175.0" text-anchor="start" font-size="14" font-weight="600" fill="var(--ink)">Install</text>
+<circle cx="170.0" cy="288.0" r="26" fill="var(--bg)" stroke="var(--accent)" stroke-width="2"/><text x="170.0" y="293.0" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ink)">3</text>
+<text x="170.0" y="334.0" text-anchor="middle" font-size="14" font-weight="600" fill="var(--ink)">Engage</text>
+<circle cx="52.0" cy="170.0" r="26" fill="var(--accent)" stroke="var(--accent)" stroke-width="2"/><text x="52.0" y="175.0" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">4</text>
+<text x="18.0" y="175.0" text-anchor="end" font-size="14" font-weight="600" fill="var(--ink)">Advocate</text>
+
+<text x="170" y="164" text-anchor="middle" font-size="13" fill="var(--muted)">every member</text>
+<text x="170" y="186" text-anchor="middle" font-size="17" font-weight="700" fill="var(--ink)">feeds the next</text>
+</svg>
+</div>
+<div class="stages">
+<div class="stage"><span class="n">01</span><h3>Attract</h3><span>Instagram Reels with member UGC; programmatic prospecting on fitness audiences.</span><span class="kpi">Thumb-stop · CPM · LP CTR</span></div>
+<div class="stage"><span class="n">02</span><h3>Install &amp; convert</h3><span>Apple Search Ads and Google App on fitness searches; Meta app-install; deep links to checkout.</span><span class="kpi">CPI · install → entry · CPA</span></div>
+<div class="stage"><span class="n">03</span><h3>Engage</h3><span>Streaks and leaderboards in-app; programmatic and Meta re-engagement for installers yet to enter.</span><span class="kpi">D7/D30 retention · re-engaged entries</span></div>
+<div class="stage adv"><span class="n">04</span><h3>Advocate</h3><span>Consented transformations become the next Reels; referrals and repeat entries.</span><span class="kpi">UGC assets/month · referral share</span></div>
+</div>
+<div class="loop"><span aria-hidden="true">↺</span><p><b>Back to Attract.</b> New UGC lowers CPM and lifts CTR; finishers seed lookalikes; referrals add free installs. That is why CPA should fall cohort over cohort, not rise.</p></div>
+</section>
+
+<section>
+<div class="sec-head"><div><span class="eyebrow blue">Budget allocation</span><h2>Three plans, one flywheel</h2></div><p class="muted" style="font-size:14px;max-width:420px">Monthly. Each channel is tagged with the flywheel stage it turns.</p></div>
+<div class="plans"><article class="plan">
+<div class="plan-top"><span class="eyebrow blue">Plan A · Validate</span></div>
+<div class="budget">£30K<span>/ month</span></div>
+<p class="muted">Prove the loop in the home market on proven Meta UGC.</p>
+<div class="stack" aria-hidden="true"><span style="width:50%;background:var(--c1)" title="Meta · Reels + UGC 50%"></span><span style="width:20%;background:var(--c2)" title="Apple Search Ads 20%"></span><span style="width:15%;background:var(--c3)" title="Google App 15%"></span><span style="width:9%;background:var(--c4)" title="Programmatic re-engage 9%"></span><span style="width:6%;background:var(--c5)" title="Programmatic prospect 6%"></span></div>
+<ul class="mix"><li><i style="background:var(--c1)"></i><span>Meta · Reels + UGC <em>Attract · Install</em></span><b>50%</b><small>£15,000</small></li><li><i style="background:var(--c2)"></i><span>Apple Search Ads <em>Install</em></span><b>20%</b><small>£6,000</small></li><li><i style="background:var(--c3)"></i><span>Google App <em>Install</em></span><b>15%</b><small>£4,500</small></li><li><i style="background:var(--c4)"></i><span>Programmatic re-engage <em>Engage</em></span><b>9%</b><small>£2,700</small></li><li><i style="background:var(--c5)"></i><span>Programmatic prospect <em>Attract</em></span><b>6%</b><small>£1,800</small></li></ul>
+<p class="geos"><span class="muted">Geos</span> UK 60 · AU 25 · IE 15</p>
+</article><article class="plan rec">
+<div class="plan-top"><span class="eyebrow blue">Plan B · Grow</span><span class="pill">Recommended</span></div>
+<div class="budget">£46K<span>/ month</span></div>
+<p class="muted">Open the US and Canada; programmatic doubles for reach and retargeting.</p>
+<div class="stack" aria-hidden="true"><span style="width:45%;background:var(--c1)" title="Meta · Reels + UGC 45%"></span><span style="width:18%;background:var(--c2)" title="Apple Search Ads 18%"></span><span style="width:15%;background:var(--c3)" title="Google App 15%"></span><span style="width:11%;background:var(--c4)" title="Programmatic re-engage 11%"></span><span style="width:11%;background:var(--c5)" title="Programmatic prospect 11%"></span></div>
+<ul class="mix"><li><i style="background:var(--c1)"></i><span>Meta · Reels + UGC <em>Attract · Install</em></span><b>45%</b><small>£20,700</small></li><li><i style="background:var(--c2)"></i><span>Apple Search Ads <em>Install</em></span><b>18%</b><small>£8,280</small></li><li><i style="background:var(--c3)"></i><span>Google App <em>Install</em></span><b>15%</b><small>£6,900</small></li><li><i style="background:var(--c4)"></i><span>Programmatic re-engage <em>Engage</em></span><b>11%</b><small>£5,060</small></li><li><i style="background:var(--c5)"></i><span>Programmatic prospect <em>Attract</em></span><b>11%</b><small>£5,060</small></li></ul>
+<p class="geos"><span class="muted">Geos</span> UK 40 · US 25 · AU 15 · CA 12 · IE 8</p>
+</article><article class="plan">
+<div class="plan-top"><span class="eyebrow blue">Plan C · Scale</span></div>
+<div class="budget">£95K<span>/ month</span></div>
+<p class="muted">US leads; programmatic prospecting widens the top of the wheel.</p>
+<div class="stack" aria-hidden="true"><span style="width:40%;background:var(--c1)" title="Meta · Reels + UGC 40%"></span><span style="width:15%;background:var(--c2)" title="Apple Search Ads 15%"></span><span style="width:17%;background:var(--c3)" title="Google App 17%"></span><span style="width:11%;background:var(--c4)" title="Programmatic re-engage 11%"></span><span style="width:17%;background:var(--c5)" title="Programmatic prospect 17%"></span></div>
+<ul class="mix"><li><i style="background:var(--c1)"></i><span>Meta · Reels + UGC <em>Attract · Install</em></span><b>40%</b><small>£38,000</small></li><li><i style="background:var(--c2)"></i><span>Apple Search Ads <em>Install</em></span><b>15%</b><small>£14,250</small></li><li><i style="background:var(--c3)"></i><span>Google App <em>Install</em></span><b>17%</b><small>£16,150</small></li><li><i style="background:var(--c4)"></i><span>Programmatic re-engage <em>Engage</em></span><b>11%</b><small>£10,450</small></li><li><i style="background:var(--c5)"></i><span>Programmatic prospect <em>Attract</em></span><b>17%</b><small>£16,150</small></li></ul>
+<p class="geos"><span class="muted">Geos</span> US 35 · UK 30 · AU 13 · CA 12 · IE 5 · NZ 5</p>
+</article></div>
+<p class="note">In every plan, 10% of the Meta line funds creator whitelisting and member UGC (stage 4), and ~15% retargets installers who haven't entered (stage 3).</p>
+</section>
+
+<section>
+<div class="two">
+<div>
+<span class="eyebrow blue">Estimated results</span><h2 style="margin-bottom:20px">Monthly KPIs by plan</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>KPI</th><th>A · £30K</th><th class="hl">B · £46K</th><th>C · £95K</th></tr></thead>
+<tbody><tr><th scope="row">Impressions</th><td>4.1M</td><td class="hl">5.8M</td><td>11.9M</td></tr><tr><th scope="row">Landing-page visits</th><td>2,900</td><td class="hl">5,300</td><td>11,600</td></tr><tr><th scope="row">App installs</th><td>10,500</td><td class="hl">12,800</td><td>22,100</td></tr><tr><th scope="row">Blended CPI</th><td>£2.43</td><td class="hl">£2.81</td><td>£3.10</td></tr><tr><th scope="row">Paid challenge entries</th><td>~650</td><td class="hl">~825</td><td>~1,465</td></tr><tr><th scope="row">CPA per entry</th><td>£46</td><td class="hl">£56</td><td>£65</td></tr><tr><th scope="row">Revenue (ex-VAT)</th><td>£81K</td><td class="hl">£103K</td><td>£183K</td></tr><tr><th scope="row">ROAS</th><td>2.7×</td><td class="hl">2.2×</td><td>1.9×</td></tr><tr><th scope="row">Marginal CPA vs step below</th><td>—</td><td class="hl">~£90</td><td>~£77</td></tr></tbody>
+</table></div>
+<p class="foot-note">All three stay under the £109 break-even. B's extra entries cost most at the margin as the US opens; C recovers some through programmatic reach and Android volume.</p>
+</div>
+<div>
+<span class="eyebrow blue">Targeting</span><h2 style="margin-bottom:20px">Geo hotspots</h2>
+<div class="table-wrap"><table class="geo">
+<thead><tr><th>Market</th><th>Cost idx</th><th style="text-align:center">A</th><th class="hl" style="text-align:center">B</th><th style="text-align:center">C</th></tr></thead>
+<tbody><tr><th scope="row">United Kingdom<small>Home market, brand demand</small></th><td>1.00</td><td class="dot"><span class=on>●</span></td><td class="dot hl"><span class=on>●</span></td><td class="dot"><span class=on>●</span></td></tr><tr><th scope="row">United States<small>Largest fitness-app market</small></th><td>1.30</td><td class="dot"><span class=off>–</span></td><td class="dot hl"><span class=on>●</span></td><td class="dot"><span class=on>●</span></td></tr><tr><th scope="row">Australia<small>High fitness engagement</small></th><td>0.95</td><td class="dot"><span class=on>●</span></td><td class="dot hl"><span class=on>●</span></td><td class="dot"><span class=on>●</span></td></tr><tr><th scope="row">Canada<small>US-like demand, cheaper</small></th><td>0.90</td><td class="dot"><span class=off>–</span></td><td class="dot hl"><span class=on>●</span></td><td class="dot"><span class=on>●</span></td></tr><tr><th scope="row">Ireland<small>UK spillover audience</small></th><td>0.90</td><td class="dot"><span class=on>●</span></td><td class="dot hl"><span class=on>●</span></td><td class="dot"><span class=on>●</span></td></tr><tr><th scope="row">New Zealand<small>Efficient add-on to AU</small></th><td>0.85</td><td class="dot"><span class=off>–</span></td><td class="dot hl"><span class=off>–</span></td><td class="dot"><span class=on>●</span></td></tr></tbody>
+</table></div>
+<p class="foot-note">Inside each geo: women and men 25–54 engaging with home workouts, weight loss, fitness challenges and healthy eating.</p>
+</div>
+</div>
+</section>
+
+<section>
+<div class="cols">
+<div><h3>Why this split</h3><ul>
+<li><b>Meta leads</b>: Reels UGC is both the attract engine and where stage-4 stories re-enter the wheel.</li>
+<li><b>App search</b> buys the cheapest high-intent installs; Google grows with Android-heavy markets.</li>
+<li><b>Programmatic</b> moves from re-engagement (A) to prospecting (C) as the installer pool grows.</li></ul></div>
+<div><h3>Gates between plans</h3><ul>
+<li><b>A → B</b> after 4 weeks with CPA under £60 and install → entry at 5%+.</li>
+<li><b>B → C</b> when US CPA is under £75 and UGC delivers 20+ new assets a month.</li>
+<li><b>Step back</b> if any geo runs two weeks above £109 CPA.</li></ul></div>
+<div><h3>Live at launch</h3><ul>
+<li>MMP (AppsFlyer or Adjust) with SKAN for iOS</li>
+<li>Meta CAPI and app events: install → trial → entry</li>
+<li>Deep links from ads and LP into checkout</li>
+<li>Consent flow to reuse member stories as ads</li></ul></div>
+</div>
+</section>
+
+<footer>
+<span>Modelled estimates, monthly, GBP. CPI £3.20 Meta, £2.00 ASA, £1.80 Google App (UK base, adjusted by geo cost index and scale); 5.5% install → paid entry; programmatic CTR 0.15% prospecting / 0.45% re-engagement; £125 ex-VAT revenue per £149.99 entry. Excludes prize pool. Recalibrate after 4 weeks of live data.</span>
+<b>Bruno C.</b>
+</footer>
+</main>
+</body>
+</html>
